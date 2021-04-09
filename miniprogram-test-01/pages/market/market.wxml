@@ -1,0 +1,13 @@
+<!--pages/market/market.wxml-->
+<view>
+	<button bindtap="wxlogin">调用微信登陆</button>
+	<block wx:if="{{!hasUserInfo}}">
+		<button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
+	</block>
+	<block wx:else>
+		<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+		<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+	</block>
+	<button bindtap="getLimit">授权</button>
+	
+</view>

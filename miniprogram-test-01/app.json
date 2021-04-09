@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/market/market",
+    "pages/index/index", 
+    "pages/funbag/funbag",
+    "pages/my/my"   
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "我的应用",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "permission":{
+	  "scope.userLocation":{
+		  "desc":"需要获取定位权限"
+	  }
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/_main.png",
+      "selectedIconPath": "images/main.png"
+    },
+    {
+      "pagePath": "pages/market/market",
+      "text": "交易市场",
+      "iconPath": "images/_camera.png",
+      "selectedIconPath": "images/camera.png"
+    },
+    {
+      "pagePath": "pages/funbag/funbag",
+      "text": "趣袋",
+      "iconPath": "images/_comment.png",
+      "selectedIconPath": "images/comment.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "个人中心",
+      "iconPath": "images/_userdelete.png",
+      "selectedIconPath": "images/userdelete.png"
+    }
+  ],
+  "color":"#000000",
+  "selectedColor":"#ff0000" 
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

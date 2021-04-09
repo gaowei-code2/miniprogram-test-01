@@ -1,0 +1,109 @@
+<view class="wp-faq">
+	<view class="faq-list">
+		<view class="item">
+			<view class="main">
+				<text class="question">购买趣盒有什么用？趣盒中都有什么？</text>
+				<view class="reply">
+					<text>购买趣盒后，打开趣盒可以得到该趣盒对应系列中的随机一个商品，每个系列中包含的商品都可以在趣盒详情页面中查看。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">趣盒中的商品都是正品吗？</text>
+				<view class="reply">
+					<text>趣盒中的商品都是正规渠道统一采购，无假货风险。如真出现假冒伪劣请第一时间联系客服。我们会代您进行维权申诉，绝对让您无后顾之忧。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">趣盒购买完成，在哪里查看？</text>
+				<view class="reply">
+					<text>可以在趣盒仓库中查看，趣盒仓库可以在【购买趣盒页面】或【个人中心】-【我的空间】中进入。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">趣袋中的商品过期后会怎么样？</text>
+				<view class="reply">
+					<text>过期后的商品平台会按照商品标价的一定比例回收。回收后会自动转入您的零钱余额中，零钱余额可以在个人中心查看。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">下单发货后的商品在哪里可以查看？</text>
+				<view class="reply">
+					<text>无论是在交易市场购买的商品还是在趣袋中选择发货的商品都可以在【个人中心】-【我的订单】中查看。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">交易市场中的出售的商品都是哪里来的？</text>
+				<view class="reply">
+					<text>目前交易市场中出售的商品都是平台用户开启趣盒后得到的商品。此类商品并未发货到用户手中，平台对此类商品都有正品保障。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">已经寄售到交易市场的商品如何查看？</text>
+				<view class="reply">
+					<text>您可以在【交易市场】页面左上角的【我的小店】中查看。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">充值未到账怎么办？</text>
+				<view class="reply">
+					<text>充值一般情况下是实时到账的，如果存在网络延迟、卡顿等特殊情况可能会产生延迟。如果超过30分钟还未到账，您可以先查看您的消费记录是否有过消费情况。如果没有，请联系我们的客服为您处理哦。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">充值后的趣点和乐豆可以退款吗？</text>
+				<view class="reply">
+					<text>非常抱歉，趣点和乐豆属于在线交付的充值类商品，因其特殊属性不适用《消费者权益保护法》中有关反悔权及网络购买商品七日无理由退货等条款的约束，用户一旦充值成功，充值即确定完成，趣购平台不提供任何退还或逆向兑换服务。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">提现需要多久可以到账？</text>
+				<view class="reply">
+					<text>目前提现需要人工审核，发起提现后30个工作日内可以到账。请您耐心等待哦。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">购买的趣点/乐豆在哪里可以查看？</text>
+				<view class="reply">
+					<text>可以在【个人中心】中查看您的趣点/乐豆余额。</text>
+				</view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="main">
+				<text class="question">趣点/乐豆的消费记录在哪里可以查看？</text>
+				<view class="reply">
+					<text>可以在【个人中心】-【趣点/乐豆】-【趣点明细/乐豆明细】中查看</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="other">
+		<text class="title">其他内容参考</text>
+		<view class="main">
+			<view class="item"><span class="text">商品服务保障请参考：<navigator href="#">服务保障</navigator></span></view>
+			<view class="item"><span class="text">等级规则请参考：<navigator href="#">登记规则</navigator></span></view>
+			<view class="item"><span class="text">农场相关规则及玩法请进入农场功能中查看：<navigator href="#">进入农场</navigator></span></view>
+			<view class="item"><span class="text">用户权利及义务参考：<navigator href="#">《用户使用协议》</navigator></span></view>
+		</view>
+	</view>
+</view>
